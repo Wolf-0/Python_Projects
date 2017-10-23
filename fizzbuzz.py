@@ -16,7 +16,60 @@ def fizz_buzz(num):
         print("Fizz")
     else:
         print("Number is not divisible by 3 or 5 or 15")
+        
 
+def fizz_buzz_2(num):
+    output = ''
+    if num % 3 == 0:
+    	output += "Fizz"
+    if num % 5 == 0:
+    	output += "Buzz"
+    if(num % 3 != 0 and num % 5 != 0):
+    	output = num
+    print(output)
+
+def fizz_buzz_3(num):
+    output = ''
+    Fizz_Num = 3
+    Buzz_Num = 5
+    if num % Fizz_Num == 0:
+    	output += "Fizz"
+    if num % Buzz_Num == 0:
+    	output += "Buzz"
+    if(num % Fizz_Num != 0 and num % Buzz_Num != 0):
+    	output = num
+    print(output)
+
+
+def fizz_buzz4(num,Fizz_Num=3,Buzz_Num=5):
+    output = ''
+    if num % Fizz_Num == 0:
+    	output += "Fizz"
+    if num % Buzz_Num == 0:
+    	output += "Buzz"
+    if(num % Fizz_Num != 0 and num % Buzz_Num != 0):
+    	output = num
+    print(output)
+
+def fizz_buzz_5(num,Fizz_Num=3,Buzz_Num=5):
+
+    def mod(divident,divisor):
+        return (divident % divisor == 0)
+    output = ''
+
+    if mod(num,Fizz_Num):
+        output += 'Fizz'
+
+    if mod(num,Buzz_Num):
+    	output += 'Buzz'
+
+    if (not mod(num,Fizz_Num) and not mod(num,Buzz_Num)):
+    	output = num
+
+    print(output)
+
+
+    
 for i in range(1, 101):
     fizz_buzz(i)
 
