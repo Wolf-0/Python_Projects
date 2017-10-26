@@ -18,4 +18,11 @@ def fact(n):
 	       factorial = factorial*i
 	   print("The factorial of",num,"is",factorial)
 
+def fact_recursive(n):
+	if n <= 1:
+		return 1
+	else:
+		return n * fact_recursive(n - 1)
+
 fact(num)
+print(fact_recursive(num))
