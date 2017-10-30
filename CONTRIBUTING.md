@@ -1,7 +1,7 @@
 # List of contributers to this project
 * [CrazyLlama](https://github.com/CrazyLlama)
 * [csurfus](https://github.com/csurfus)
-* [D3coy] (https://github.com/d3coy)
+* [D3coy](https://github.com/d3coy)
 * [HargovindArora](https://github.com/HargovindArora)
 * [jtkaufman737](https://github.com/jtkaufman737)
 * [Marwan2001](https://github.com/Marwan2001)
@@ -12,6 +12,7 @@
 * [yogithapolavarapu](https://github.com/yogithapolavarapu)
 * [zwmccall](https://github.com/zwmccall)
 * [Shubhangi Pandey](https://github.com/meshubhangi)
+* [Wolf](https://github.com/Wolf-0)
 
 ## Add your name when you push on the project (alphabetical order)
 
